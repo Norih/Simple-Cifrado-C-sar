@@ -1,0 +1,44 @@
+form {
+	background-color: lightblue;
+	width: 500px; 
+	margin: auto;
+	border-radius: 12px; 
+	box-shadow: 1px 1px 20px 1px;
+}
+
+input {
+	width: 48%;
+	margin-left: 25%;
+	padding: 8px;
+	margin-top: 10px;
+	border-radius: 10px;
+	outline: none;
+}
+
+select {
+	width: 52%;
+	margin-left: 25%;
+	margin-top: 10px;
+	padding: 6px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.btn {
+	background-color: white;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 10px;
+	padding: 6px;
+}
+
+.btn:hover {
+	background-color: silver;
+}
+
+@media (max-width: 515px)
+{
+	form {
+		width: 98%;
+	}
+}
